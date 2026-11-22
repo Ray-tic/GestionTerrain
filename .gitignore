@@ -1,0 +1,55 @@
+# ===== Java / compilation =====
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ===== Gradle =====
+.gradle/
+build/
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+.apt_generated/
+.factorypath
+.springBeans
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# ===== Build Eclipse Dynamic Web Project =====
+src/main/webapp/WEB-INF/classes/
+build/classes/
+
+# ===== IntelliJ / VS Code / NetBeans =====
+.idea/
+*.iml
+.vscode/
+nbproject/
+
+# ===== Fichiers sensibles (mots de passe) =====
+*-ds.xml
+.env
+*.keystore
+application.properties.local
+
+# ===== Système =====
+.DS_Store
+Thumbs.db
+desktop.ini
